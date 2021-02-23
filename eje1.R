@@ -1,11 +1,11 @@
-library('sessionInfo')
+library('sessioninfo')
 library('here')
 library('ggplot2')
 
 options(width = 120)
 sessioninfo::session_info()
 
-print("Soy Mich")
+print("Soy Eli")
 
 dir.create(here::here("figuras"),showWarnings = FALSE)
 
